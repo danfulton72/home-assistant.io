@@ -125,6 +125,7 @@ image_processing:
     width: 490
     threshold: 20
     digits: 4
+    extra_arguments: erosion
     source:
       - entity_id: camera.seven_segments
 ```
